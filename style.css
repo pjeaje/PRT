@@ -1,0 +1,520 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    http://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Thomas Usborne
+ Author URI:   http://edge22.com
+ Template:     generatepress
+ Version:      0.1
+ Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, light, white, dark, black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, yellow
+*/
+
+.post-type-archive-teacher #primary form.searchandfilter ul li ul li.cat-item {border:solid 1px #ccc;padding:3px;margin-bottom:3px;}
+.post-type-archive-teacher #primary form.searchandfilter ul li ul li.cat-item:hover {border:solid 1px #000;}
+form.searchandfilter ul li ul li.cat-item.cat-item-1269 {display:block;max-width:50%;border:dotted 1px #A8271C;padding:3px;margin-bottom:3px;}
+
+.post {margin-bottom: 10px;}
+.edd-download {margin-bottom:10px;}
+.tomorrow {margin-bottom:10px;}
+.today {margin-bottom:10px;}
+.favourite {margin-bottom:10px;}
+
+#menu-item-1275 #enhancedtextwidget-36 h4.widget-title {display:none;}
+
+.page-template-default img.wp-post-image.nelioefi {display:none;}
+
+.single-teacher h2 .fa-linkedin-square {color:#1C86BD;}
+
+.single-education-assistant p i.fa.fa-search-plus {margin-left:-20px;background:#fff;color:#333;font-size:20px;}
+.single-teacher p i.fa.fa-search-plus {margin-left:-20px;background:#fff;color:#333;font-size:20px;}
+
+#right-sidebar #enhancedtextwidget-40 ul li{list-style-type:disc;margin-left:20px;}
+
+#generate-slideout-menu span.side {font-size:20px;}
+#generate-slideout-menu  a  {font-size:20px;}
+#generate-slideout-menu .slider-exit a {font-size:25px;}
+
+.page p a{word-wrap: break-word;}
+.page-template-page-days .entry-content .day-title{text-align:center;font-size:40px;}
+.page-template-page-days .inside-article p {margin:0px;}
+.page-template-page-days .entry-content p.days {text-align:center;}
+.page-template-page-days .inside-article.update {padding:10px;}
+.page-template-page-days .inside-article.update p{padding:10px;margin:0px;}
+.page-template-page-days .inside-article.update {background:#1CA827;}
+.page-template-page-days .inside-article.update h2 {text-align:center;padding:0px;margin:0px;color:#fff;}
+.page-template-page-days .inside-article.update h2 a{color:#fff;}
+
+.page-template-page-teachers .entry-content .day-title{text-align:center;font-size:40px;}
+.page-template-page-teachers .inside-article p {margin:0px;}
+.page-template-page-teachers .entry-content p.days {text-align:center;}
+.page-template-page-teachers .inside-article.update {padding:10px;}
+.page-template-page-teachers .inside-article.update p{padding:10px;margin:0px;}
+.page-template-page-teachers .inside-article.update {background:#1CA827;}
+.page-template-page-teachers .inside-article.update h2 {text-align:center;padding:0px;margin:0px;color:#fff;}
+.page-template-page-teachers .inside-article.update h2 a{color:#fff;}
+
+.page-template-page-teachers .teacher-qualification-02-primary .inside-article p {background:#1CA827;}
+
+#post-355 .inside-article.update {padding:10px;}
+#post-355 .inside-article.update p{padding:10px;margin:0px;}
+#post-355 .inside-article.update {background:#1CA827;}
+#post-355 .inside-article.update h2 {text-align:center;padding:0px;margin:0px;color:#fff;}
+#post-355 .inside-article.update h2 a{color:#fff;}
+
+#post-808 .inside-article.update {padding:10px;}
+#post-808 .inside-article.update p{padding:10px;margin:0px;}
+#post-808 .inside-article.update {background:#1CA827;}
+#post-808 .inside-article.update h2 {text-align:center;padding:0px;margin:0px;color:#fff;}
+#post-808 .inside-article.update h2 a{color:#fff;}
+
+.inside-article.update {padding:10px;}
+.inside-article.update p{padding:10px;margin:0px;}
+.inside-article.update {background:#1CA827;}
+.inside-article.update h2 {text-align:center;padding:0px;margin:0px;color:#fff;}
+.inside-article.update h2 a{color:#fff;}
+
+.date-today {text-align:center;margin-bottom:5px;;}
+
+.entry-header h1.entry-title {text-align:center;font-weight:700;margin:0px;padding:0px;}
+.page-header {padding-bottom:0px;}
+.page-title {text-align:center;font-weight:700;padding:0px;margin:0px;}
+.single header.entry-header h1.page-title {padding:5px 10px 0px 10px ;}
+.single header.entry-header h1.page-title a{color:#333;}
+.single header.entry-header h1.page-title a:hover{color:#999;}
+.single .entry-content  {font-weight:700;}
+.mobilebest {text-align:center;margin-top:10px;}
+
+.single .mobilebest {
+text-align:center;
+margin-top:10px;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+filter: alpha(opacity=90);
+opacity: 0.9;
+}
+.single .entry-header p {padding:20px;text-align:center;}
+
+button.simplefavorite-button {color:#333;font-weight:700;opacity: 1; filter: Alpha(opacity=100);padding:0px;}
+button.simplefavorite-button.active {color:#333;font-weight:700;opacity: 1; filter: Alpha(opacity=100);padding:0px;}
+button.simplefavorite-button:hover {color:#1CA827;opacity: 1; filter: Alpha(opacity=100);}
+button.simplefavorite-button.active:hover {color:#E3212F; opacity: 1; filter: Alpha(opacity=100);}
+button.simplefavorite-button {background:#fff;}
+button.simplefavorite-button.active {background:#fff;}
+button.simplefavorite-button:hover {background:#fff;}
+button.simplefavorite-button.active:hover {background:#fff;}
+.single p.favs {font-weight:700;margin-top:10px;}
+#post-617 h4.widget-title {display:none;}
+#post-617 .amr_widget{margin:0px;padding-top:0px;}
+
+.times-desktop.fa-2x.fa-stack-1x {margin-left:13px;}
+.fa-times {color:#e3212f;}
+.fa-check {color:#1ca827;}
+
+.entry-header p {margin:0px;}
+
+.home .inside-article.update {background:#1CA827;}
+.home .inside-article.update h2 {text-align:center;padding:0px;margin:0px;color:#fff;}
+.home .inside-article.update h2 a{color:#fff;}
+
+.home #post-187 .amr_widget {margin:0px;padding:0px;}
+.home #post-187 .amr_widget .widget-text h2 {margin-top:-20px;text-align:center;}
+
+.post-type-archive-teacher .inside-article.favourite {font-weight:550;text-align:center;background:#555;color:#fff;;}
+.post-type-archive-teacher .inside-article.today {font-weight:550;text-align:center;background:#333;color:#fff;}
+.post-type-archive-teacher .inside-article.tomorrow {font-weight:550;text-align:center;background:#444;color:#fff;;}
+.post-type-archive-teacher .inside-article.favourite {font-weight:550;text-align:center;background:#555;color:#fff;}
+
+
+.post-type-archive-teacher li.cat-item.cat-item-899 {border-right:solid 5px #aaa;}
+.post-type-archive-teacher .searchandfilter li.cat-item {display:blockxx;}
+
+#enhancedtextwidget-32.widget.inner-padding.widget_text.enhanced-text-widget.amr_widget,#enhancedtextwidget-33.widget.inner-padding.widget_text.enhanced-text-widget.amr_widget {padding:0px;}
+
+.post-type-archive-education-assistant .inside-article.eatoday {font-weight:550;text-align:center;background:#003366;color:#fff;margin-bottom:10px;}
+.post-type-archive-education-assistant .inside-article.eatomorrow {font-weight:550;text-align:center;background:#004080;color:#fff;margin-bottom:10px;}
+.post-type-archive-education-assistant .inside-article.favourite {font-weight:550;text-align:center;background:#004d9a;color:#fff;margin-bottom:10px;}
+
+.home .inside-article.today {font-weight:550;text-align:center;background:#b2497d;color:#fff;}
+.home .inside-article.tomorrow {font-weight:550;text-align:center;background:#cc5490;color:#fff;}
+
+.single .entry-content  {text-align:left;font-weight:400;padding:10px 20px 20px 20px;margin-top:1px;margin-bottom:1px;}
+.single .entry-content p{margin:1px;}
+.single .entry-content li {text-align:left;padding-bottom:0px;}
+
+.single p.contact {text-align:center;font-size:1.6em;padding:10px;background:#a8271c;color:#fff;margin:20px 5px 5px 5px;}
+.single p.contact-apply {text-align:center;font-size:1.6em;padding:10px;background:#1ca827;color:#fff;margin:20px 5px 5px 5px;}
+.single p.contact-android {text-align:center;font-size:1.6em;padding:10px;background:#A4C639;color:#fff;margin:20px 5px 5px 5px;}
+.single p.contact-apple {text-align:center;font-size:1.6em;padding:10px;background:#A6A6A6;color:#fff;margin:20px 5px 5px 5px;}
+.single p.contact-email {text-align:center;font-size:1.6em;padding:10px;background:#E3212F;color:#fff;margin:20px 5px 5px 5px;}
+a.contact {color:#fff;}
+
+.bold {font-weight:700;}
+.single .bold {text-align:center;}
+
+nav#nav-below.paging-navigation span.page-numbers.current {font-weight:700;border:solid 1px #D48923; background:#D48923; padding:3px 5px 3px 5px; margin-right:10px; color:#fff;}
+nav#nav-below.paging-navigation a.page-numbers {font-weight:400;border:solid 1px #D48923; background:transparent; padding:3px 5px 3px 5px; margin-right:10px;}
+nav#nav-below.paging-navigation a.page-numbers:hover {font-weight:400;border:solid 1px #D48923; background:#D48923; padding:3px 5px 3px 5px; margin-right:10px; color:#fff;}
+
+h4.widget-title {text-align:center;font-weight:700;}
+
+#wp-calendar tbody tr td a {font-weight:700;font-size:1.5em;padding:0px;text-decoration:underline;}
+#wp-calendar tbody tr td {text-align:center;}
+#wp-calendar tfoot tr td#next {font-weight:700;}
+#wp-calendar tfoot tr td#prev {font-weight:700;}
+#wp-calendar #today {color:#fff;font-weight:700;background:#1ca827;border:solid 2px #1ca827;}
+
+.single #content .inside-article {padding:20px 0px 10px 0px;}
+
+#post-269 li {font-weight:700;list-style-type:none;font-size:1.5em;}
+#post-269 li ul li {font-weight:400;padding-left:30px;font-size:0.5em;}
+#post-269 .amr_widget {padding:0px;}
+
+.post-type-archive-teacher .inside-article.update {padding:10px;}
+.post-type-archive-teacher .inside-article.update p{padding:10px;margin:0px;}
+
+.archive .inside-article.update {padding:10px;}
+.archive .inside-article.update p{padding:10px;margin:0px;}
+
+.single-post .inside-article.update {padding:10px;}
+.single-post .inside-article.update p{padding:10px;margin:0px;}
+
+.home .inside-article.update2 {padding:10px;}
+.home .inside-article.update2 p{padding:10px;margin:0px;}
+
+
+.single-teacher #content .inside-article.update {padding:10px;margin:20px 0px 20px 0px;}
+.single-teacher .inside-article.update p{padding:10px;margin:0px;}
+.single-teacher .center {text-align:center;}
+
+
+.single-teacher .fa.fa-user-plus.fa-5x {color:#ccc;}
+.single-teacher .fa.fa-user-plus.fa-5x:hover {color:#a8271C;}
+
+
+.post-type-archive-teacher .inside-article.teacher-list {background:#96A3B6;color:#fff;}
+.post-type-archive-teacher .second  .inside-article.teacher-list{background:#D48923;color:#fff;}
+
+.post-type-archive-education-assistant .inside-article.teacher-list {background:#96A3B6;color:#fff;}
+.post-type-archive-education-assistant .second  .inside-article.teacher-list{background:#D48923;color:#fff;}
+
+.inside-article.teacher-list {background:#96A3B6;color:#fff;}
+.second  .inside-article.teacher-list{background:#D48923;color:#fff;}
+
+.primary a .inside-article {background:#96A3B6;color:#fff;}
+.secondary a .inside-article {background:#D48923;color:#fff;}
+.rural-primary a .inside-article {background:#a8271c;color:#fff;}
+.rural-dhs a .inside-article {background:#1ca827;color:#fff;}
+.rural-secondary a .inside-article {background:#666666;color:#fff;}
+.rural-other a .inside-article {background:#3cb3c7;color:#fff;}
+
+.primary .inside-article {background:#96A3B6;color:#fff;}
+.secondary .inside-article {background:#D48923;color:#fff;}
+.rural-primary .inside-article {background:#a8271c;color:#fff;}
+.rural-dhs .inside-article {background:#1ca827;color:#fff;}
+.rural-secondary .inside-article {background:#666666;color:#fff;}
+.rural-other .inside-article {background:#3cb3c7;color:#fff;}
+.private-primary .inside-article {background:#994C9B;color:#fff;}
+
+.colours.inside-article.colours2 .inside-article p {vertical-align:middle;text-align:center; width:100%; padding:10px 5px 10px 5px; margin:0px;color:#fff;}
+
+.fa.fa-facebook-official {color:#44619D;}
+.page-id-1114 .fa.fa-facebook-square.fa-4x {color:#3B5998;}
+
+.single-teacher .rating-form.mrp-shortcode h4 {font-weight:700;margin-bottom:-5px;font-size:14px}
+.single-teacher .rating-form .description {font-size:16px;}
+.btn.btn-default.save-rating {padding:5px 10px 5px 10px;font-size:15px;}
+.btn.btn-default.delete-rating  {padding:5px 10px 5px 10px;font-size:15px;}
+#rating-form-1-541-0, #rating-form-1-350-0{width:100%;margin:0px 0px 0px 0px;}
+.single-teacher footer.entry-meta hr {margin:0px;padding:0px;height:5px;}
+.single-teacher .mrp-star-rating-select {font-size:20px;}
+.single-teacher .mrp-thumbs.mrp-thumbs-select  {font-size:20px;}
+.single-teacher .rating-form.mrp-shortcode form#rating-form-1-541-0 p.rating-item.mrp {margin:30px;padding:0px;}
+.single-teacher p.rating-item.mrp{margin-top:-40px;padding:0px;}
+
+.single-education-assistant .rating-form.mrp-shortcode h4 {font-weight:700;margin-bottom:-5px;font-size:14px}
+.single-education-assistant .rating-form .description {font-size:16px;}
+.btn.btn-default.save-rating {padding:5px 10px 5px 10px;font-size:15px;}
+.btn.btn-default.delete-rating  {padding:5px 10px 5px 10px;font-size:15px;}
+#rating-form-1-541-0, #rating-form-1-350-0{width:100%;margin:0px 0px 0px 0px;}
+.single-education-assistant footer.entry-meta hr {margin:0px;padding:0px;height:5px;}
+.single-education-assistant .mrp-star-rating-select {font-size:20px;}
+.single-education-assistant .mrp-thumbs.mrp-thumbs-select  {font-size:20px;}
+.single-education-assistant .rating-form.mrp-shortcode form#rating-form-1-541-0 p.rating-item.mrp {margin:30px;padding:0px;}
+.single-education-assistant p.rating-item.mrp{margin-top:-40px;padding:0px;}
+
+@media screen and (max-width: 490px) and (min-width: 10px) {
+.single-teacher .rating-item.mrp span.mrp-star-rating.mrp-star-rating-select,.single-teacher .rating-form .mrp-thumbs-select {display:block;}
+}
+@media screen and (max-width: 768px) and (min-width: 491px) {
+.single-teacher .rating-item.mrp span.mrp-star-rating.mrp-star-rating-select,.single-teacher .rating-form .mrp-thumbs-select {display:inline;}
+}
+@media screen and (max-width: 984px) and (min-width: 769px) {
+.single-teacher .rating-item.mrp span.mrp-star-rating.mrp-star-rating-select,.single-teacher .rating-form .mrp-thumbs-select {display:block;}
+}
+@media screen and (max-width: 9999px) and (min-width: 985px) {
+.single-teacher .rating-item.mrp span.mrp-star-rating.mrp-star-rating-select,.single-teacher .rating-form .mrp-thumbs-select {display:inline;}
+}
+
+
+#post-289 #wppb-form-element-2 .user-school {display:none;}
+.role-teacher #post-35 #wppb-form-element-2 .user-school  {display:none;}
+#post-787 .wppb-description-delimiter {display:none;}
+.role-ea #post-35 .wppb-description-delimiter, .role-teacher #post-35 .wppb-description-delimiter {display:none;}
+
+#post-269 span.cat-desc {font-weight:400;}
+#post-269 li.cat-item ul.children li.cat-item {font-size:15px;font-weight:500;}
+
+.searchandfilter ul {width:100%;}
+#right-sidebar select  {width:100%;}
+.searchandfilter h4 {font-size:1.3em;text-align:center;width:100%;background:#f5f5f5;}
+
+#enhancedtextwidget-4 p {vertical-align:middle;text-align:center; width:100%; padding:10px 5px 10px 5px; margin:0px;color:#fff;}
+#enhancedtextwidget-10 p {vertical-align:middle;text-align:center; width:100%; padding:10px 5px 10px 5px; margin:0px;color:#fff;}
+
+.category .su-spoiler-title {font-weight:400;}
+.category #primary .amr_widget {padding:0px;list-style-type:none;}
+.category .inside-article h2 {padding:10px;margin:0px;text-align:center;}
+
+#right-sidebar select#cat.postform option.level-0  {font-weight:700;}
+#right-sidebar #enhancedtextwidget-16  ul {margin-top:0px;}
+#right-sidebar #enhancedtextwidget-16 h4.widget-title {margin-bottom:0px;}
+#right-sidebar #enhancedtextwidget-16 small {color:#999;}
+#right-sidebar  h2 {padding:0px;margin:0px;text-align:center;}
+#right-sidebar #enhancedtextwidget-13 {padding:10px;text-align:center;}
+
+#right-sidebar #enhancedtextwidget-17 h4.widget-title {display:none;}
+#right-sidebar #enhancedtextwidget-17 {padding:10px;text-align:center;}
+
+#right-sidebar #enhancedtextwidget-22 .searchandfilter div ul li input {width:100%;}
+#right-sidebar #enhancedtextwidget-22 .searchandfilter ul li ul li.cat-item label input {width:auto;}
+#right-sidebar #enhancedtextwidget-9 .searchandfilter div ul li input {width:100%;}
+#right-sidebar #enhancedtextwidget-9 .searchandfilter ul li ul li.cat-item label input {width:auto;}
+
+
+#right-sidebar #enhancedtextwidget-43 p i.fa.fa-2x {vertical-align:middle;color:#333;}
+#right-sidebar #enhancedtextwidget-43 p i.fa.fa-2x:hover {vertical-align:middle;color:#a8271c;}
+
+#post-2 .inside-article p{text-align:left;padding-bottom:10px;}
+#post-148 .inside-article p{text-align:left;padding-bottom:10px;}
+#post-150 .inside-article p{text-align:left;padding-bottom:10px;}
+.inside-article li {text-align:left;padding-bottom:10px;}
+
+footer.entry-meta {text-align:center;margin-top:1px;}
+
+/* post a job */
+#post-42 .wpuf-fields h2 {font-size:20px;margin-bottom:5px}
+#post-42 .wpuf-label {display:block;text-align:center;width:100%;font-size:25px;color:#333;font-weight:400;}
+#post-42 .wpuf-fields {display:block;width:100%;padding-bottom:10px;border-bottom:solid 0px #ccc;}
+#post-42 .wpuf-category-checklist {margin-left:5%;text-align:left;}
+#post-42  input.textfield {width:100%;}
+#post-42 .wpuf-fields label  {display:block;width:100%;text-align:left;}
+#post-42 span.wpuf-help {display:block;text-align:left;width:100%;}
+#post-42 hr {padding:0px;margin:0px;color:#333;height:3px;}
+#post-42 .school-job-days {background:#9aeea1;}
+#post-42 li#school-job-days-996 {border-top:solid 3px #555;}
+#post-42 ul.wpuf-category-checklist{margin-left:15%;}
+#wpuf-post-draft.btn {font-weight:400;}
+
+/* edit a job */
+#post-10 .wpuf-fields h2 {font-size:20px;margin-bottom:5px}
+#post-10 .wpuf-label {display:block;text-align:center;width:100%;font-size:25px;color:#333;font-weight:400;}
+#post-10 .wpuf-fields {display:block;width:100%;padding-bottom:10px;border-bottom:solid 0px #ccc;}
+#post-10 .wpuf-category-checklist {margin-left:5%;text-align:left;}
+#post-10 .wpuf-fields label  {display:block;width:100%;text-align:left;}
+#post-10 .teacher-avail.teacher-days {background:#9aeea1;}
+#post-10 li.wpuf-el.school-job-days.school-job-days {background:#9aeea1;}
+#post-10 li#school-job-days-996 {border-top:solid 3px #555;}
+#post-10 li#teacher-avail-1269 {border-top:solid 3px #555;}
+#post-10 .textfield {width:100%;}
+#post-10 .email {width:100%;}
+#post-10 li.wpuf-el.ea-days.ea-days {background:#9aeea1;}
+
+.wpuf-form select {width:99%;}
+.role-school #post-10 .date-time.date-time  {display:none;}
+#post-10 input#post_title.textfield {width:100%;}
+#post-10 #teacher-contact.textfield {width:100%;}
+#post-10 #wpuf-date-date-time.datepicker {width:100%;}
+#post-10 #alternate_number.textfield  {width:100%;}
+#post-10 #ea-phone.textfield  {width:100%;}
+
+#post-10 ul.wpuf-category-checklist{margin-left:15%;}
+#post-10 hr {margin:0px;padding:0px;}
+
+/* EA */
+#post-782 .wpuf-fields h2 {font-size:20px;margin-bottom:5px}
+#post-782 .wpuf-label {display:block;text-align:center;width:100%;font-size:25px;color:#333;font-weight:400;}
+#post-782 .wpuf-fields {display:block;width:100%;padding-bottom:10px;border-bottom:solid 0px #ccc;}
+#post-782 .wpuf-category-checklist {margin-left:0%;text-align:left;}
+#post-782 .wpuf-fields label  {display:block;width:100%;text-align:left;}
+#post-782 .teacher-avail.teacher-days {background:#9aeea1;}
+#post-782 .wpuf-help{display:block;width:100%;}
+.wpuf-form select {width:99%;}
+.role-school #post-10 .date-time.date-time  {display:none;}
+#post-782 input#post_title.textfield {width:100%;}
+#post-782 #teacher-contact.textfield {width:100%;}
+#post-782 #wpuf-date-date-time.datepicker {width:100%;}
+#post-782 #ea-phone.textfield  {width:100%;}
+#post-782 ul.wpuf-category-checklist{margin-left:15%;}
+
+#post-782 #ea-experience-1242 {border-top:solid 3px #999;}
+#post-782 #ea-experience-1249 {border-top:solid 3px #999;}
+
+#post-782 li.wpuf-el.ea-days.ea-days {background:#9aeea1;}
+#post-782 li#ea-days-1268 {border-top:solid 3px #555;}
+
+#post-782 .wpuf_custom_html_Defence_Force_Transitional_Aide_100 {margin-top:-82px;font-size:12px;margin-left:20%}
+#post-782 .wpuf_custom_html_wwcc_and_scn_100 p {background:#ccc;padding:10px;}
+
+/* school rego */
+#post-33 .wpuf-fields h2 {font-size:20px;margin-bottom:5px}
+#post-33 .wpuf-label {display:block;text-align:center;width:100%;font-size:25px;color:#333;font-weight:400;}
+#post-33 .wpuf-fields {display:block;width:100%;padding-bottom:10px;border-bottom:solid 0px #ccc;}
+#post-33 .wpuf-category-checklist {margin-left:5%;text-align:left;}
+#post-33  input.textfield {width:100%;}
+#post-33 .teacher-avail.teacher-days .wpuf-label  {background:#9aeea1;}
+#post-33 .teacher-avail.teacher-days .wpuf-fields {background:#9aeea1;}
+#post-33 .wpuf-fields label  {display:block;width:100%;text-align:left;}
+#post-33 span.wpuf-help {display:block;text-align:left;width:100%;}
+#post-33 .wpuf-fields.wpuf_teacher-avail_checkbox_323_12 span.wpuf-help {font-size:18px;padding:0px 5px 0px 5px;}
+#post-33 li#teacher-avail-1269 {border-top:solid 3px #555;}
+#post-33 ul.wpuf-category-checklist{margin-left:15%;}
+#post-33 .wpuf-help ul li {padding:0px;margin:0px;}
+
+
+/* school rego */
+#post-35 .wpuf-fields h2 {font-size:20px;margin-bottom:5px}
+#post-35 .wpuf-label {display:block;text-align:center;width:100%;font-size:25px;color:#333;font-weight:400;}
+#post-35 .wpuf-fields {display:block;width:100%;padding-bottom:10px;border-bottom:solid 0px #ccc;}
+#post-35 .wpuf-category-checklist {margin-left:30%;text-align:left;}
+
+
+#enhancedtextwidget-31 h4.widget-title {display:none;}
+
+#category-select.category-select input {margin-top:5px;}
+
+#post-37 h2.page-head {display:none;}
+
+
+.page-template-page-favs .entry-content li {margin-left:20px;}
+
+html body.login.login-action-lostpassword.wp-core-ui.locale-en-us #login h1 {display:none;}
+
+/* COMMENTS */
+.logged-in-as {display:none;}
+
+
+/* teacher resume */
+#post-1162 .wpuf_custom_html_PROFESSIONAL_EXPERIENCE_-_EMPLOYMENT_HISTORY_1148 {width:100%;}
+#post-1162 .wpuf_custom_html_Qualifications_1148 {width:100%;}
+#post-1162 .wpuf-label  {width:100%;font-weight:700;}
+#post-1162 .wpuf-address-field .wpuf-label {width:100%;font-weight:400;}
+#post-1162 .wpuf-fields  {width:100%;}
+#post-1162 .wpuf-fields input {width:100%;}
+#post-1162 .wpuf-help  {display:block;width:100%;}
+#post-1162 .amr_widget {padding:0px;margin:0px;}
+#post-1162 .su-spoiler-title {padding:5px;margin:0px 10px 0px 10px;}
+#post-1162 .employment-hide{margin:-50px 0px -20px 0px;}
+#post-1162 .employment {border-top:3px #ccc solid;}
+#post-1162 .qualification-hide {margin:-50px 0px -20px 0px;}
+#post-1162 .qualification {border-top:3px #ccc solid;}
+#post-1162 #enhancedtextwidget-34 h4.widget-title {display:none;}
+#post-1162 #enhancedtextwidget-35 h4.widget-title {display:none;}
+#post-1162 .wpuf_custom_html_PROFESSIONAL_EXPERIENCE_-_EMPLOYMENT_HISTORY__1148 {margin-bottom:-50px;}
+#post-1162 .wpuf_custom_html_Qualifications_1148 {margin-bottom:-50px;}
+#post-10 .wpuf-form-add  h2 {font-size:24px; font-weight:500;text-align:center;}
+#post-10 .wpuf_custom_html_PROFESSIONAL_EXPERIENCE_-_EMPLOYMENT_HISTORY__1148  {margin-bottom:-50px;}
+#post-10 .wpuf_custom_html_Qualifications_1148 {margin-bottom:-50px;}
+
+/* POSTIE */
+.single-wagovjobs .entry-content p a img {width:25px;display:none;}
+.single-wagovjobs h2.postie {font-weight:700;text-align:center;}
+
+/* relief list */
+#post-486 .teacher.type-teacher.status-publish.hentry {border-left:solid #ccc 5px; background: #f5f5f5; padding: 10px;margin:5px 0px 5px 0px;}
+
+/* wagovjobs */
+.single-wagovjobs  a {text-decoration:none;border-bottom:0px solid #fff;}
+.single-wagovjobs .wagovjobs.type-wagovjobs.status-publish.hentry .inside-article .entry-content p {display:none;}
+
+/* favs */
+#post-617.post-617.page.type-page.status-publish .teacher.type-teacher.status-publish.hentry a  article .inside-article.teacher-list {margin-bottom:5px;padding:5px 5px 0px 10px ;}
+#post-617.post-617.page.type-page.status-publish .education-assistant.type-education-assistant.status-publish.hentry a  article .inside-article.teacher-list {margin-bottom:5px;padding:5px 5px 0px 10px ;}
+#post-617 header.entry-header p img{vertical-align:middle;width:40px;height:40px;}
+
+
+.single-teacher-cv .entry-content h2 {text-align:center;}
+.single-teacher-cv .entry-content h2 {padding:0px;margin-top:20px;color:#333;font-weight:500;}
+.single-teacher-cv h2.teacher-cv-name {font-weight:700;margin-top:0px}
+.single-teacher-cv .entry-content p {padding:0px;margin-bottom:10px;}
+
+.single img.avatar.avatar-96.photo {padding:3px; background:#eee; border:solid 1px #ccc; margin-top:5px;}
+.archive img.avatar.avatar-40.photo {padding:0px;margin:-5px 0px -10px 0px;vertical-align:middle;}
+.archive img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {width:40px;height:40px;padding:0px;margin:-5px 0px -10px 0px;vertical-align:middle;}
+.single img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {width:100px;padding:3px; background:#eee; border:solid 1px #ccc; margin-top:5px;}
+img.nelioefi {width:40px;height:40px;padding:0px;margin:-5px 0px -10px 0px;vertical-align:middle;
+}
+.single-teacher img.attachment-full.size-full.wp-post-image {width:100px;padding:3px; background:#eee; border:solid 1px #ccc; margin-top:5px;}
+.single-education-assistant img.attachment-full.size-full.wp-post-image {width:100px;padding:3px; background:#eee; border:solid 1px #ccc; margin-top:5px;}
+
+.short_message {white-space: pre-line;}
+.single-teacher-cv .white-space {white-space: pre-line;}
+.single-teacher-cv .white-space2 {white-space: pre-line; padding:10px; border: 1px #ccc solid; background: #eee;}
+.text-center {text-align:center;}
+.font25 {font-size:22px;}
+
+.mce-widget.mce-btn button  {display:nonex;}
+.mce-first button  {display:nonex;}
+.mce-last button  {display:nonex;}
+#mceu_5.mce-widget.mce-btn button,#mceu_49.mce-widget.mce-btn button,#mceu_93.mce-widget.mce-btn button,#mceu_137.mce-widget.mce-btn button {display:inline;}
+
+.archive #nav-below.paging-navigation a.page-numbers {margin-bottom:5px;}
+
+.single-info .entry-content {text-align: left;}
+.single-info h1.entry-title {margin: 0px 10px 0px 10px;}
+.single-info .entry-content p {margin-bottom: 8px;}
+
+
+
+/* RESTRICT CONTENT PRO */
+#post-2137 ul#rcp_subscription_levels li.rcp_subscription_level {border:solid 3px #ccc;margin-bottom:5px;padding:5px;}
+#post-2137 ul#rcp_subscription_levels li.rcp_subscription_level label {display:inline;}
+#post-2137 ul#rcp_subscription_levels li.rcp_subscription_level span.rcp_level_duration {display:none;}
+#post-2137 ul#rcp_subscription_levels li.rcp_subscription_level span.rcp_separator {display:none;}
+#post-2137 ul#rcp_subscription_levels li.rcp_subscription_level span.rcp_price {display:none;}
+#post-2137 ul#rcp_subscription_levels li.rcp_subscription_level .rcp_level_description .features {font-style:italic;}
+
+@media (max-width: 769px) {
+	.menu-toggle,
+	.main-navigation.toggled .main-nav > ul {
+		display: none !important;
+	}
+	.main-navigation ul,
+	.main-navigation ul li:hover > ul,
+	.sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+		display: block;
+	}
+	.main-nav .sf-menu > li {
+		float: left;
+		clear: none;
+	}
+	.nav-aligned-center.nav-below-header .main-navigation .menu > li, 
+	.nav-aligned-center.nav-below-header .main-navigation .sf-menu > li {
+ 		display: inline-block; 
+	}
+	.main-navigation .main-nav ul ul {
+		display: none;
+		float: left;
+		position: absolute;
+		top: auto;
+		left: 0;
+		z-index: 99999;
+		width:200px;
+		text-align:left;
+	}
+	.main-navigation .main-nav ul ul ul {
+		left: 100%;
+		top: 0;
+	}
+	.mobile-bar-items {
+		display: none;
+	}
+}

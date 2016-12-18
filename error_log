@@ -1,0 +1,2 @@
+[10-Jul-2016 03:46:48 UTC] PHP Notice:  Undefined index: email in /home/perthrel/public_html/wp-content/themes/generatepress_child/send-email.php on line 2
+[10-Jul-2016 03:46:48 UTC] PHP Fatal error:  Call to undefined function wp_mail() in /home/perthrel/public_html/wp-content/themes/generatepress_child/send-email.php on line 14
